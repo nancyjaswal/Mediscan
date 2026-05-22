@@ -4,7 +4,7 @@ from pdf2image import convert_from_bytes
 import pytesseract
 
 # Tesseract Path
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Page Config
 st.set_page_config(
